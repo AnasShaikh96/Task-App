@@ -18,13 +18,4 @@ const task = new Task({
   completed: true,
 });
 
-task
-  .save()
-  .then((res) => {
-    console.log(res);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
-
 module.exports = Task;

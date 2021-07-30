@@ -47,13 +47,4 @@ const work = new User({
   password: "12233444455555",
 });
 
-work
-  .save()
-  .then((result) => {
-    // console.log(result);
-  })
-  .catch((e) => {
-    console.log(e);
-  });
-
 module.exports = User;
